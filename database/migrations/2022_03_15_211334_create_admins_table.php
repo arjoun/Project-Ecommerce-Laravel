@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 class CreateAdminsTable extends Migration
 {
     /**
-     * Run the migrations.
+     * Run the migrations table admins.
      *
      * @return void
      */
