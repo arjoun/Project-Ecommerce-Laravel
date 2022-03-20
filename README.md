@@ -23,7 +23,21 @@
 
 ## About This PROJECT :
 
+
+## HOME PAGE SCREEN :
+
 <p align="center"><a href="https://github.com/arjoun/Project-Ecommerce-Laravel/blob/master/FireShot%20Capture%20003%20-%20Category%20-%20127.0.0.1-11.png" target="_blank"><img src="https://github.com/arjoun/Project-Ecommerce-Laravel/blob/master/FireShot%20Capture%20003%20-%20Category%20-%20127.0.0.1-11.png" width="400"></a></p>
+
+
+## CATEGORY  PAGE SCREEN :
+
+<p align="center"><a href="https://github.com/arjoun/Project-Ecommerce-Laravel/blob/master/FireShot%20Capture%20003%20-%20Category%20-%20127.0.0.1-22.png" target="_blank"><img src="https://github.com/arjoun/Project-Ecommerce-Laravel/blob/master/FireShot%20Capture%20003%20-%20Category%20-%20127.0.0.1-22.png" width="400"></a></p>
+
+## DASHBOARD  PAGE SCREEN :
+
+<p align="center"><a href="https://github.com/arjoun/Project-Ecommerce-Laravel/blob/master/FireShot%20Capture%20004%20-%20DASHBOARD%20-%20127.0.0.1-33.png" target="_blank"><img src="https://github.com/arjoun/Project-Ecommerce-Laravel/blob/master/FireShot%20Capture%20004%20-%20DASHBOARD%20-%20127.0.0.1-33.png" width="400"></a></p>
+<br>
+<p align="center"><a href="https://github.com/arjoun/Project-Ecommerce-Laravel/blob/master/FireShot%20Capture%20%20DSHBOARD%20Product%20-.png" target="_blank"><img src="https://github.com/arjoun/Project-Ecommerce-Laravel/blob/master/FireShot%20Capture%20%20DSHBOARD%20Product%20-.png" width="400"></a></p>
 
 
 Create application (Front-end, Back-end) have the following :
