@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
@@ -144,7 +143,7 @@
               <!-- search box -->
               <div class="aa-search-box">
                 <form action="">
-                  <input type="text" id="search_str" placeholder="Search here ex. 'man' ">
+                  <input type="text" id="search_str" placeholder="Search here ex. 'mobile' ">
                   <button type="button" onclick="funSearch()"><span class="fa fa-search"></span></button>
                 </form>
               </div>

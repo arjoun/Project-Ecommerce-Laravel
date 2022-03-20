@@ -6,7 +6,6 @@
 <section id="aa-catg-head-banner">
    <div class="aa-catg-head-banner-area">
      <div class="container">
-      
      </div>
    </div>
   </section>
@@ -120,30 +119,15 @@
                         </tr>
                         @endforeach
                       </tbody>
-                      <tfoot>
-                        <tr class="hide show_coupon_box">
-                          <th>Coupon Code <a href="javascript:void(0)" onclick="remove_coupon_code()" class="remove_coupon_code_link">Remove</a></th>
-                          <td id="coupon_code_str"></td>
-                        </tr>
-                         <tr>
-                          <th>Total</th>
-                          <td id="total_price">INR {{$totalPrice}}</td>
-                        </tr>
-                      </tfoot>
+                     
                     </table>
                   </div>
-                  <h4>Coupon Code</h4>
-                    <div class="aa-payment-method coupon_code">                    
-                      <input type="text" placeholder="Coupon Code" class="aa-coupon-code apply_coupon_code_box" name="coupon_code" id="coupon_code">
-                      <input type="button" value="Apply Coupon" class="aa-browse-btn apply_coupon_code_box" onclick="applyCouponCode()">   
-                      <div id="coupon_code_msg"></div>           
-                    </div>
+                 
                   <br/>
                   <h4>Payment Method</h4>
                   <div class="aa-payment-method">                    
                     <label for="cod"><input type="radio" id="cod" name="payment_type" value="COD" checked> Cash on Delivery </label>
-                    <label for="instamojo">
-                    <input type="radio" id="instamojo" name="payment_type" value="Gateway"> Via Instamojo </label>
+                   
                     
                     <input type="submit" value="Place Order" class="aa-browse-btn" id="btnPlaceOrder">                
                   </div>

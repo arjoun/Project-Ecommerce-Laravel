@@ -84,7 +84,7 @@
                     $cat_class="";
                     if($loop_count==1){
                       $cat_class="in active"; 
-                      $loop_count++;
+                      $loop_count==4;
                     }
                     @endphp
                     <div class="tab-pane fade {{$cat_class}}" id="cat{{$list->id}}">

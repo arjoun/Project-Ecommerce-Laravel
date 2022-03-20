@@ -59,8 +59,8 @@
                   <div class="aa-product-view-content">
                     <h3>{{$product[0]->name}}</h3>
                     <div class="aa-price-block">
-                      <span class="aa-product-view-price">Rs {{$product_attr[$product[0]->id][0]->price}}&nbsp;&nbsp;</span>
-                      <span class="aa-product-view-price"><del>Rs {{$product_attr[$product[0]->id][0]->mrp}}</del></span>
+                      <span class="aa-product-view-price">Rial {{$product_attr[$product[0]->id][0]->price}}&nbsp;&nbsp;</span>
+                      <span class="aa-product-view-price"><del>Rial {{$product_attr[$product[0]->id][0]->mrp}}</del></span>
 
                       <p class="aa-product-avilability">Avilability: <span>In stock</span></p>
 
@@ -138,7 +138,7 @@
                 <li><a href="#technical_specification" data-toggle="tab">Technical Specification</a></li>
                 <li><a href="#uses" data-toggle="tab">Uses</a></li>
                 <li><a href="#warranty" data-toggle="tab">Warranty</a></li>
-                <li><a href="#review" data-toggle="tab">Reviews</a></li>                
+                               
               </ul>
 
               <!-- Tab panes -->
@@ -155,59 +155,7 @@
                 <div class="tab-pane fade" id="warranty">
                   {!!$product[0]->warranty!!}
                 </div>
-                <div class="tab-pane fade " id="review">
-                 <div class="aa-product-review-area">
-                 @if(isset($product_review[0]))    
-                   <h4>
-                   @php  
-                      echo count($product_review);
-                   @endphp
-                    Review(s) for {{$product[0]->name}}</h4> 
-                   <ul class="aa-review-nav">
-                     @foreach($product_review as $list)
-                     <li>
-                        <div class="media">
-                          <div class="media-body">
-                            <h4 class="media-heading"><strong>{{$list->name}}</strong> - <span>{{getCustomDate($list->added_on)}}</span></h4>
-                            <div class="aa-product-rating">
-                              <span class="rating_txt">{{$list->rating}}</span>
-                            </div>
-                            <p>{{$list->review}}</p>
-                          </div>
-                        </div>
-                      </li>
-                      @endforeach
-                   </ul>
-                   @else
-                        <h2>No review found</h2>
-                      @endif
-                   <form id="frmProductReview" class="aa-review-form">
-                   <h4>Add a review</h4>
-                   <div class="aa-your-rating">
-                     <p>Your Rating</p>
-                     <select class="form-control" name="rating" required>
-                      <option value="">Select Rating</option>
-                      <option>Worst</option>
-                      <option>Bad</option>
-                      <option>Good</option>
-                      <option>Very Good</option>
-                      <option>Fantastic</option>
-                     </select>
-                   </div>
-                   <!-- review form -->
-                   
-                      <div class="form-group">
-                        <label for="message">Your Review</label>
-                        <textarea class="form-control" rows="3"  name="review" required></textarea>
-                      </div>
-                      
-                      <button type="submit" class="btn btn-default aa-review-submit">Submit</button>
-                      <input type="hidden" name="product_id" value="{{$product[0]->id}}"/>
-                      @csrf
-                   </form>
-                   <div class="review_msg"></div>
-                 </div>
-                </div>            
+                       
               </div>
             </div>
             <!-- Related product -->
@@ -223,7 +171,7 @@
                         <a class="aa-add-card-btn" href="{{url('product/'.$productArr->slug)}}"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                         <figcaption>
                             <h4 class="aa-product-title"><a href="{{url('product/'.$productArr->slug)}}">{{$productArr->name}}</a></h4>
-                            <span class="aa-product-price">Rs {{$related_product_attr[$productArr->id][0]->price}}</span><span class="aa-product-price"><del>Rs {{$related_product_attr[$productArr->id][0]->mrp}}</del></span>
+                            <span class="aa-product-price">Rial {{$related_product_attr[$productArr->id][0]->price}}</span><span class="aa-product-price"><del>Rs {{$related_product_attr[$productArr->id][0]->mrp}}</del></span>
                         </figcaption>
                         </figure>                          
                     </li>  

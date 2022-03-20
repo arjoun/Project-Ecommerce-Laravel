@@ -151,6 +151,7 @@ img {
   padding: 10px 15px;
   text-transform: uppercase;
   transition: all 0.5s ease 0s;
+  background-color: #d7d7d7;
 }
 .aa-add-to-cart-btn span {
   margin-right: 5px;
@@ -415,7 +416,7 @@ img {
   width: 500px;
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-search-box input[type="text"] {
-  border: 1px solid #555;
+  border: 3px solid #121628;
   color: #555;
   font-size: 14px;
   font-family: "Raleway", sans-serif;
@@ -987,7 +988,7 @@ img {
 }
 #aa-promo .aa-promo-area .aa-promo-banner .aa-prom-content h4 {
   color: #fff;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -999,6 +1000,7 @@ img {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  background-color: #f66;
 }
 
 
@@ -1077,7 +1079,7 @@ img {
 }
 .aa-products-tab li a {
   border: none;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   border-radius: 0;
   border-bottom: 1px solid #fff;

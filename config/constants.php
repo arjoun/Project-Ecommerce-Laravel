@@ -1,4 +1,4 @@
 <?php
 return [
-    'site_name'=>'My ECOM'
+    'site_name'=>'ADMIN ARJOUN NIDHAL'
 ];

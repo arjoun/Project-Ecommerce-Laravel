@@ -48,21 +48,14 @@
                                 <i class="fas fa-list"></i>Category</a>
                         </li>
 
-                        <li class="@yield('coupon_select')">
-                            <a href="{{url('admin/coupon')}}">
-                                <i class="fas fa-tag"></i>Coupon</a>
-                        </li>
+                       
 
                         <li class="@yield('size_select')">
                             <a href="{{url('admin/size')}}">
                                 <i class="fas fa-window-maximize"></i>Size</a>
                         </li>
 
-                        <li class="@yield('brand_select')">
-                            <a href="{{url('admin/brand')}}">
-                            <i class="fa fa-product-hunt"></i>Brand</a>
-                        </li>
-
+                       
                         <li class="@yield('color_select')">
                             <a href="{{url('admin/color')}}">
                             <i class="fas fa-paint-brush"></i>Color</a>
@@ -106,29 +99,20 @@
                             <a href="{{url('admin/order')}}">
                                 <i class="fas fa-shopping-basket"></i>Order</a>
                         </li>
-                        <li class="@yield('product_review_select')">
-                            <a href="{{url('admin/product_review')}}">
-                            <i class="fas fa-star"></i>Product Review</a>
-                        </li>
+                        
                         <li class="@yield('category_select')">
                             <a href="{{url('admin/category')}}">
                                 <i class="fas fa-list"></i>Category</a>
                         </li>
 
-                        <li class="@yield('coupon_select')">
-                            <a href="{{url('admin/coupon')}}">
-                                <i class="fas fa-tag"></i>Coupon</a>
-                        </li>
+                   
 
                         <li class="@yield('size_select')">
                             <a href="{{url('admin/size')}}">
                                 <i class="fas fa-window-maximize"></i>Size</a>
                         </li>
 
-                        <li class="@yield('brand_select')">
-                            <a href="{{url('admin/brand')}}">
-                            <i class="fa fa-bold"></i>Brand</a>
-                        </li>
+                    
 
                         <li class="@yield('color_select')">
                             <a href="{{url('admin/color')}}">
@@ -150,10 +134,7 @@
                             <i class="fa fa-user"></i>Customer</a>
                         </li>
 
-                        <li class="@yield('home_banner_select')">
-                            <a href="{{url('admin/home_banner')}}">
-                            <i class="fas fa-images"></i>Home Banner</a>
-                        </li>
+                        
 
                         
                     </ul>
