@@ -1,3 +1,83 @@
+## INSTALL  :
+
+1- download with GIT.
+
+2- cammand : composer install
+
+3- cammand : npm run dev
+
+4- cammand : cp .env.example .env
+
+5- create new database name 
+
+7- config data base  .env
+
+8- commande : php artisan key:generate
+
+9- add SQL_ECOM file php 
+
+10- commande : artisan migrate 
+
+11- commande : php artisan serve 
+
+
+## About This PROJECT :
+
+
+Create application (Front-end, Back-end) have the following :
+
+1 - login without Registration process.
+
+2 - pre-seed users and admins and other data.
+
+3 - Have Companies (Apple, Samsung, ASUS, DELL, ..etc.).
+
+4 - Have Products (Apple iPhone, Apple Macbook pro, apple Airbods, Samsung Fold, Samsung Galaxy S22, Galaxy Buds Pro, Samsung Galaxy Book Flex2).
+
+5 - category products   (mobile phone, laptop, headphones).
+
+6 - category CPU (Intel, AMD, snapdragon, exynos) and any sub-category belong details to CPU
+
+Each category can have sub category and sub-category can have another sub-category as well
+Ex:
+
+Category A
+Category A can have multi sub categories
+Ex:
+
+Category A-sub1
+Category A-sub2
+Category A-sub1 can have multi sub categories of A-sub1 (related to will be: A-sub1.1 , A-sub1.2 …etc.)
+Ex:
+
+Category A-sub1-another-sub-1
+Category A-sub1-another-sub-2
+Category B
+.... So on.
+
+ 
+
+7 - Can register and show products with related details and can filter the data using category and sub-category as well.
+
+Admins only can add products , category and companies
+8 - Can Logout.
+
+9 - Should use APIs for checking if access token valid or not.
+
+10 - Bonus: Using Laravel PHP web framework or any of php frameworks.
+
+11 - Bonus: Front-end using VueJS framework.
+
+12 - Bonus: Front-end API calls using Axios.
+
+ 
+
+Share us the repository link for your project (github or gitlab).
+
+Deadline: Sunday 20 /03/2022
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -60,3 +140,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Developer 
+ARJOUN NIDHAL
+arjounidhal@gmail.com
+0595808712
